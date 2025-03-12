@@ -3,15 +3,19 @@ import { Link } from "react-router-dom";
 
 const Noticia1 = () => {
     return (
-        <div className='flex flex-col gap-4 justify-center items-center'>
+        <div className='flex flex-col gap-8 justify-center items-center'>
             <h2>Robôs Humanoides Começam a Trabalhar em Restaurantes nos EUA</h2>
             <div className='flex gap-60'>
-                <div>
+                <div className='flex flex-col gap-6'>
+                    <p class='titulo-janela'>Avanço Científico</p>
                     <img src="./src/assets/Noticia1.jpg" alt="Imagem da Notícia 1" className='w-[200px]'/>
+                    <Link to="/noticia1"><button>Notícia 1</button></Link>
                 </div>
                     <img src="./src/assets/Noticia3.jpg" alt="Imagem da Notícia 3" className='w-[700px]' />
-                <div>
+                <div className='flex flex-col gap-6'>
+                    <p class='titulo-janela'>Cidade perdida na Amazônia</p>
                     <img src="./src/assets/Noticia2.jpg" alt="Imagem da Notícia 2" className='w-[200px]'/>
+                    <Link to="/noticia2"><button>Notícia 2</button></Link>
                 </div>
             </div>
             <p class='texto'>A tecnologia robótica acaba de dar mais um passo rumo ao futuro. Restaurantes nos Estados Unidos começaram a empregar robôs humanoides para atender clientes, servindo refeições e interagindo com o público.

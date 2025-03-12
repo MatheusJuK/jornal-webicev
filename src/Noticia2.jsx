@@ -3,16 +3,20 @@ import { Link } from "react-router-dom";
 
 const Noticia1 = () => {
     return (
-        <div className='flex flex-col gap-4 justify-center items-center'>
+        <div className='flex flex-col gap-8 justify-center items-center'>
             <h2>Descoberta de Cidade Perdida na Amazônia Surpreende Arqueólogos</h2>
             <div className='flex gap-60'>
-                <div>
+                <div className='flex flex-col gap-6'>
+                    <p class='titulo-janela'>Avanço Científico</p>
                     <img src="./src/assets/Noticia1.jpg" alt="Imagem da Notícia 1" className='w-[200px]'/>
+                    <Link to="/noticia1"><button>Notícia 1</button></Link>
                 </div>
                     <img src="./src/assets/Noticia2.jpg" alt="Imagem da Notícia 2" className='w-[700px]' />
-                <div>
-                    <img src="./src/assets/Noticia3.jpg" alt="Imagem da Notícia 3" className='w-[200px]'/>
-                </div>
+                <div className='flex flex-col gap-6'>
+                    <p class='titulo-janela'>Robôs Humanoides</p>
+                     <img src="./src/assets/Noticia3.jpg" alt="Imagem da Notícia 3" className='w-[200px]'/>
+                    <Link to="/noticia3"><button>Notícia 3</button></Link>
+                 </div>
             </div>
             <p class='texto'>Uma descoberta arqueológica surpreendente está reescrevendo parte da história das civilizações pré-colombianas na América do Sul. Uma equipe de pesquisadores revelou a existência de uma cidade perdida no meio da floresta amazônica, com estruturas de pedra bem preservadas, sistemas de irrigação e indícios de uma sociedade complexa.
 

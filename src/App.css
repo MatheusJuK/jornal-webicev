@@ -10,13 +10,20 @@ h2{
   max-width: 400px;
 }
 img{
-  max-width: 450px;
+  max-width: 400px;
 }
 .resumo{
   max-width: 400px;
   text-align: justify;
+  font-size: 1rem;
+
 }
 .texto{
   max-width: 1400px;
   text-align: justify;
+}
+.titulo-janela{
+  max-width: 200px;
+  text-align: center;
+  font-size: 1.7rem;
 }
