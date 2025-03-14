@@ -8,9 +8,9 @@ const Noticia1 = () => {
         <p>Template de jornal</p>
         <p>11/03/2025</p>
       </div>
-      <div className='border 1920px solid w-[1920px]'></div>
+      <div className='border solid max-w-[2920px]'></div>
       <h1 class='titulo'>Notícia 2</h1>
-      <div className='border 1920px solid w-[1920px]'></div>
+      <div className='border solid max-w-[2920px]'></div>
         <div className='flex flex-col gap-8 justify-center items-center mt-14'>
             <h2>Descoberta de Cidade Perdida na Amazônia Surpreende Arqueólogos</h2>
             <div className='flex gap-60'>
