@@ -3,7 +3,15 @@ import { Link } from "react-router-dom";
 
 const Noticia1 = () => {
     return (
-        <div className='flex flex-col gap-8 justify-center items-center'>
+    <>
+        <div className='flex justify-between'>
+            <p>Template de jornal</p>
+            <p>11/03/2025</p>
+        </div>
+        <div className='border 1920px solid w-[1920px]'></div>
+        <h1 class='titulo'>Notícia 1</h1>
+        <div className='border 1920px solid w-[1920px]'></div>
+            <div className='flex flex-col gap-8 justify-center items-center mt-14'>
             <h2>Avanço Científico: Cientistas Criam Coração Biônico Totalmente Funcional</h2>
             <div className='flex gap-60'>
                 <div className='flex flex-col gap-6'>
@@ -31,6 +39,7 @@ Caso seja implementado com sucesso, essa inovação pode salvar milhões de vida
 </p>
         <Link to="/"><button>Voltar</button></Link>
         </div>
+    </>
     );
 };
 

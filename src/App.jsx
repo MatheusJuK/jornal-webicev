@@ -11,7 +11,7 @@ function App() {
       <div className='border 1920px solid w-[1920px]'></div>
       <h1 class='titulo'>Jornal</h1>
       <div className='border 1920px solid w-[1920px]'></div>
-      <div className='flex justify-around px-20'>
+      <div className='flex justify-around px-20 items-center mt-14'>
         <div className='flex flex-col gap-4'>
           <h2>Avanço Científico: Cientistas Criam Coração Biônico Totalmente Funcional</h2>
           <img src="./src/assets/Noticia1.jpg" alt="Imagem da Notícia 1"/>
@@ -30,6 +30,9 @@ function App() {
           <p class ='resumo'>Redes de restaurantes nos EUA estão implementando robôs humanoides para servir mesas e interagir com os clientes. A inovação visa melhorar a eficiência e reduzir custos, mas gera debates sobre o impacto no emprego humano.</p>
           <Link to="/noticia3"><button>Ver mais</button></Link>
         </div>
+      </div>
+      <div className='flex justify-center'>1
+        <h2>GPT QUE GEROU! FIQUEI COM PREGUIÇA DE FAZER AS NOTÍCIAS</h2>
       </div>
     </>
   )

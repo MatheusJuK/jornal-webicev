@@ -3,7 +3,15 @@ import { Link } from "react-router-dom";
 
 const Noticia1 = () => {
     return (
-        <div className='flex flex-col gap-8 justify-center items-center'>
+        <>
+        <div className='flex justify-between'>
+        <p>Template de jornal</p>
+        <p>11/03/2025</p>
+      </div>
+      <div className='border 1920px solid w-[1920px]'></div>
+      <h1 class='titulo'>Notícia 3</h1>
+      <div className='border 1920px solid w-[1920px]'></div>
+        <div className='flex flex-col gap-8 justify-center items-center mt-14'>
             <h2>Robôs Humanoides Começam a Trabalhar em Restaurantes nos EUA</h2>
             <div className='flex gap-60'>
                 <div className='flex flex-col gap-6'>
@@ -29,6 +37,7 @@ No entanto, a novidade gera polêmica. Enquanto os empresários veem a tecnologi
 Especialistas acreditam que, nos próximos anos, o uso de robôs em restaurantes, hotéis e outros serviços será cada vez mais comum, marcando uma nova era na automação comercial.</p>
             <button><Link to="/">Voltar</Link></button>
         </div>
+        </>
     );
 };
 

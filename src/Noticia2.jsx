@@ -3,7 +3,15 @@ import { Link } from "react-router-dom";
 
 const Noticia1 = () => {
     return (
-        <div className='flex flex-col gap-8 justify-center items-center'>
+        <>
+        <div className='flex justify-between'>
+        <p>Template de jornal</p>
+        <p>11/03/2025</p>
+      </div>
+      <div className='border 1920px solid w-[1920px]'></div>
+      <h1 class='titulo'>Notícia 2</h1>
+      <div className='border 1920px solid w-[1920px]'></div>
+        <div className='flex flex-col gap-8 justify-center items-center mt-14'>
             <h2>Descoberta de Cidade Perdida na Amazônia Surpreende Arqueólogos</h2>
             <div className='flex gap-60'>
                 <div className='flex flex-col gap-6'>
@@ -29,6 +37,7 @@ Os pesquisadores encontraram ainda inscrições e cerâmicas que indicam um sist
 A descoberta reforça a teoria de que civilizações amazônicas antigas eram mais desenvolvidas do que se pensava. Agora, os arqueólogos se dedicam a estudar os achados e entender como essa sociedade desapareceu ao longo dos séculos.</p>
             <button><Link to="/">Voltar</Link></button>
         </div>
+        </>
     );
 };
 
